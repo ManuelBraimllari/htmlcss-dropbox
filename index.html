@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <nav>
@@ -44,6 +45,7 @@
                 <p>
                     Annulla in qualsiasi momento
                 </p>
+                <i class="fa-solid fa-arrow-down"></i>
             </div>
             <div class="header-right">
                 <img src="img/img/jumbo.png" alt="">
@@ -61,24 +63,25 @@
                 <input type="radio" class="numero2">Fatturazione annuale
             </div>
             <div class="tabelle">
-                <table class="n1">
-                    <tr><td>Singolo</td></tr>
+                <table class="n1"  style="border:1px solid black ;">
+                    <tr><td style="border-bottom:1px solid black ;" class="tipol-abbonamento"><i class="fa-solid fa-user"></i> Singolo</td></tr>
                     <tr><td>
                         <h3>Professional</h3>
-                        €12,00
+                        <p>€12,00</p> 
                         <p class="mensilità">
                             /mese
                         </p>
                         <p>
-                            1 utente
+                            <i class="fa-solid fa-user"></i> 1 utente
                         </p>
                         <p>
-                            5TB di spazio di archiviazione sicuri
+                            <i class="fa-solid fa-folder"></i> 5TB di spazio di archiviazione sicuri
                         </p>
                         <p>
+                            <i class="fa-solid fa-share-nodes"></i>
                             funzione di produttività premium e condivisione file semplice e sicura
                         </p>
-                        <button>
+                        <button class="prova">
                             Prova gratis per 30 giorni
                         </button>
                         <p>
@@ -89,33 +92,34 @@
                             Punti salienti del piano
                         </h4>
                         <p>
-                            Invia file fino a 100GB con Dropbox Tranfert
+                            <i class="fa-solid fa-check"></i> Invia file fino a 100GB con Dropbox Tranfert
                         </p>
                         <p>
-                            Cartelle ofline su dispositivi mobili
+                            <i class="fa-solid fa-check"></i> Cartelle ofline su dispositivi mobili
                         </p>
 
                     </td></tr>
                 </table>
 
-                <table class="n1">
-                    <tr><td>Singolo</td></tr>
+                <table class="n1"  style="border:1px solid black ;">
+                    <tr><td style="border-bottom:1px solid black ;" class="tipol-abbonamento"><i class="fa-solid fa-users"></i> Team</td></tr>
                     <tr><td>
-                        <h3>Professional</h3>
-                        €12,00
+                        <h3>Advanced</h3>
+                        <p>€18,00</p> 
                         <p class="mensilità">
-                            /mese
+                            /utente/mese
                         </p>
                         <p>
-                            1 utente
+                            <i class="fa-solid fa-users"></i> 3 o più utenti
                         </p>
                         <p>
-                            5TB di spazio di archiviazione sicuri
+                            <i class="fa-solid fa-folder"></i> Tutto lo spazio di cui ha bisogno il tuo team
                         </p>
                         <p>
-                            funzione di produttività premium e condivisione file semplice e sicura
+                            <i class="fa-solid fa-share-nodes"></i>
+                            Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team
                         </p>
-                        <button>
+                        <button class="prova">
                             Prova gratis per 30 giorni
                         </button>
                         <p>
@@ -126,34 +130,45 @@
                             Punti salienti del piano
                         </h4>
                         <p>
-                            Invia file fino a 100GB con Dropbox Tranfert
+                            <i class="fa-solid fa-check"></i> Nessun limite di spazio per i file
                         </p>
                         <p>
-                            Cartelle ofline su dispositivi mobili
+                            <i class="fa-solid fa-check"></i> Cartelle ofline su dispositivi mobili
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-check"></i> Rispario del 50% rispetto alle iscrizioni singole
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-check"></i> Possibilità di inserire nuovi membri del team
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-check"></i> Gestione dei permessi in base ai ruoli
                         </p>
 
                     </td></tr>
                 </table>
 
-                <table class="n1">
-                    <tr><td>Singolo</td></tr>
+                <table class="n1"  style="border: 1px solid black ;">
+                    <tr><td style="border-bottom:1px solid black ;" class="tipol-abbonamento"><i class="fa-sharp fa-solid fa-building"></i> Azienda</td></tr>
                     <tr><td>
-                        <h3>Professional</h3>
-                        €12,00
+                        <h3>Enterprise</h3>
+                        <p>contattaci</p>
                         <p class="mensilità">
                             /mese
                         </p>
                         <p>
-                            1 utente
+                            <i class="fa-solid fa-user"></i> 10 o più utenti
                         </p>
                         <p>
-                            5TB di spazio di archiviazione sicuri
+                            <i class="fa-solid fa-folder"></i> Soluzione personalizzabile per la tua azienda 
                         </p>
                         <p>
-                            funzione di produttività premium e condivisione file semplice e sicura
+                            <i class="fa-solid fa-share-nodes"></i>
+                            Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala
                         </p>
-                        <button>
-                            Prova gratis per 30 giorni
+                        
+                        <button class="prova">
+                            Contattaci
                         </button>
                         <p>
                             oppure <a href="http://">acquista ora</a>
@@ -163,16 +178,145 @@
                             Punti salienti del piano
                         </h4>
                         <p>
-                            Invia file fino a 100GB con Dropbox Tranfert
+                            <i class="fa-solid fa-check"></i> Cartelle ofline su dispositivi mobili
                         </p>
                         <p>
-                            Cartelle ofline su dispositivi mobili
+                            <i class="fa-solid fa-check"></i> Servizio assistenza 24/h
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-check"></i> Possibilità di personalizzazione totale
                         </p>
 
                     </td></tr>
                 </table>
             </div>
         </div>
+        <table style="border: 1px solid black ;" class="tab-n2">
+            <tr><td style="border-bottom:1px solid black ;" class="tipol-abbonam2"><i class="fa-sharp fa-solid fa-building"></i> Team</td></tr>
+                    <tr><td>
+                        <div class="tabtab">
+                        <div class="left">
+                             <h3>Enterprise</h3>
+                            <h4> Contatta l'ufficio vendite per i prezzi</h4>
+                            <p>
+                               Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT
+                            nella gestione su qualsiasi scala
+                            </p>
+                        </div>
+                        
+                        <div class="right">
+                            <button>
+                                Contatta lufficio vendite
+                            </button>
+                        </div>
+                        </div>
+                    </td></tr>
+        </table>
+
+        <div class="contenitore1">
+            <div class="left">
+                 <img src="img/img/partner.png" alt="">
+            </div>
+            <div class="right">
+                 <h3>
+                    Entrat in contatto con un partner Dropbox
+                 </h3>
+                 <p>
+                    Trovare un partner Dropbox e HelloSing di fiducia. Ottieni le soluzioni
+                    e i servizzi necessari per raggiungere i tuoi obiettivi aziendali, tra cui implementazione,
+                    integrazione, gestione e supporti contuini.
+                 </p>
+                 <button>
+                    Trova un partner
+                 </button>
+            </div>
+        </div>
+        <h2>
+            Esegui più operazioni con Dropbox Business
+        </h2>
+    
+        <div class="operazioni">
+            <div class="contenuto">
+                <img src="img/img/business-feature-switching-tools.png" alt="">
+                <h3>
+                    Passa di meno da uno strumento all'altro
+                </h3>
+                <p>
+                    Porta a termine le attività quotidiane con un solo strumento. Crea, modifica
+                    e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file 
+                    Microsoft Office e Dropbox Paper direttamente da Dropbox.
+                </p>
+            </div>
+
+            <div class="contenuto">
+                <img src="img/img/business-feature-send-files-it.png" alt="">
+                <h3>
+                    Passa di meno da uno strumento all'altro
+                </h3>
+                <p>
+                    Porta a termine le attività quotidiane con un solo strumento. Crea, modifica
+                    e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file 
+                    Microsoft Office e Dropbox Paper direttamente da Dropbox.
+                </p>
+            </div>
+
+            <div class="contenuto">
+                <img src="img/img/business-feature-coordinate-it.png" alt="">
+                <h3>
+                    Passa di meno da uno strumento all'altro
+                </h3>
+                <p>
+                    Porta a termine le attività quotidiane con un solo strumento. Crea, modifica
+                    e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file 
+                    Microsoft Office e Dropbox Paper direttamente da Dropbox.
+                </p>
+            </div>
+        </div>
+
+        <div class="operazioni2">
+            <div class="contenuto">
+                <img src="img/img/business-feature-integrations-it.png" alt="">
+                <h3>
+                    Passa di meno da uno strumento all'altro
+                </h3>
+                <p>
+                    Porta a termine le attività quotidiane con un solo strumento. Crea, modifica
+                    e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file 
+                    Microsoft Office e Dropbox Paper direttamente da Dropbox.
+                </p>
+            </div>
+
+            <div class="contenuto">
+                <img src="img/img/business-feature-multi-device.png" alt="">
+                <h3>
+                    Passa di meno da uno strumento all'altro
+                </h3>
+                <p>
+                    Porta a termine le attività quotidiane con un solo strumento. Crea, modifica
+                    e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file 
+                    Microsoft Office e Dropbox Paper direttamente da Dropbox.
+                </p>
+            </div>
+
+            <div class="contenuto">
+                <img src="img/img/business-feature-security.png" alt="">
+                <h3>
+                    Passa di meno da uno strumento all'altro
+                </h3>
+                <p>
+                    Porta a termine le attività quotidiane con un solo strumento. Crea, modifica
+                    e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file 
+                    Microsoft Office e Dropbox Paper direttamente da Dropbox.
+                </p>
+            </div>
+        </div>
+        <h2>
+            Più di 500.000 team utilizzano Dropbox Business
+        </h2>
+
+        <a href="">Scopri di più sui nostri clienti</a>
+
     </main>
+
 </body>
 </html>
